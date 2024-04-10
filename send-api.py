@@ -14,4 +14,4 @@ headers = {
 
 response = requests.request("POST", url, headers=headers, data=payload)
 
-print(response) # OK <200>
+print(response) # e.g. <Response [200]>
