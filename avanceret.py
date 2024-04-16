@@ -24,7 +24,7 @@ while True:
         else:
             btn_num = 0
             print(my_rgb)
-            pixels.set_pixel(0, (scaled, scaled, scaled))
+            pixels.set_pixel(0, my_rgb)
             pixels.show()
         
         time.sleep(0.5)
