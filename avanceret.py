@@ -15,9 +15,9 @@ while True:
     scaled = int((duty / 65535) * 100)
     
     if not b1:
-        x = list(my_rgb)		# Konverter tuple til liste
-        x[btn_num] = scaled	# Ændr værdien på den pågældende plads
-        my_rgb = tuple(x)	# Konverter liste tilbage til tuple
+        x = list(my_rgb)    # Konverter tuple til liste
+        x[btn_num] = scaled # Ændr værdien på den pågældende plads
+        my_rgb = tuple(x)   # Konverter liste tilbage til tuple
         
         if btn_num < 2:
             btn_num += 1
